@@ -1,0 +1,100 @@
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+
+body{
+    background-color: #FFF;
+    color: #000000;
+}
+.scrollup {
+    background: #FF0000 none repeat scroll 0 0;
+    color: #FFFFFFF;
+    bottom: 38px;
+    cursor: pointer;
+    font-size: 18px;
+    height: 40px;
+    line-height: 35px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    z-index: 99999;
+}
+.fa-chevron-up{
+    color: #FFF;
+}
+#footer .text-secondary{
+    color: #292D7E;
+}
+
+.navbar-toggler{
+    border: none;
+}
+.category-title{
+    background-color: #FF0000;
+    color: #fff;
+    /*border-radius: 5px;*/
+    border-left: 10px solid #F2EC1F;
+    border-right: 20px solid #292D7E;
+    border-top-right-radius: 100px;
+}
+.card-header{
+    background-color: #FF0000;
+    color: #fff;
+    border-left: 10px solid #F2EC1F;
+    border-radius: 0px;
+}
+.card{
+    border: none;
+}
+.card-title{
+    color: #292D7E; 
+}
+.btn-warning{
+    border-right: 7px solid #292D7E;
+    border-radius: 0px;
+}
+.adds_img{
+    margin: 0 auto;
+}
+/*.card-title{
+    text-align: center;
+}*/
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: yellow;
+}
+
+#team .card{
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 5px solid #D6D6D6;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+#team .card img{
+    margin-top: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+#category .card-title{
+    font-size: 1.2rem;
+    color: #292D7E; 
+}
+
+@media (max-width: 576px){
+    .navbar-brand img{
+        width: 180px;
+    }
+}
